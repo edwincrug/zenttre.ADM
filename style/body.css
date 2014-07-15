@@ -1,0 +1,242 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300);
+
+body
+{
+	font-family: "Open Sans", sans-serif;
+	background: #EEEEEE;
+	font-size: 16px;
+}
+
+a
+{
+	color: #22BCE0;
+}
+
+header
+{
+	background: #343B54;
+	height: 42px;
+	color: white;
+	overflow: hidden;
+	text-align: center;
+}
+
+header #logo
+{
+	display: inline-block;
+	width: 100px;
+	left: 15;
+	top: 10;
+	position: absolute;
+}
+
+header nav
+{
+	font-size: 1.2em;
+	width: 260px;
+	margin-top: -5;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li
+{
+	float: left;
+	margin: 1px;
+}
+
+header nav ul li img
+{
+	width: 35px;
+}
+
+header #avatar 
+{
+	position: absolute;
+	right: 0;
+	top:0;
+	margin: 0 0 0 0;
+	margin: 0.25em 1em 0 0;
+}
+
+header #avatar img
+{
+	border-radius: 50%;
+	width: 35px;
+}
+header #name
+{
+	position: absolute;
+	right: 60;
+	top:12;
+	font-size: 11px;
+}
+
+nav
+{
+	display: inline-block;
+}
+
+#left
+{
+	display: inline-block;
+	position: relative;
+	height: calc(100% - 42px);
+	width: 125px;
+	background: #51b5e0;
+}
+
+#menu
+{
+	position: absolute;
+	top: 25%;
+	width: 100%;
+	padding: 5px;
+}
+
+#menu ul li 
+{
+	margin-top:7px;
+	margin-bottom: 7px;
+	width: 96%;
+	background: #82c6e2;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	cursor: pointer;
+	color: #EEEEEE;
+	position: relative;
+	box-shadow: 2px 2px 5px #999;
+
+}
+
+#menu ul li:hover
+{
+	box-shadow: 2px 2px 5px #51b5e0;
+}
+
+#menu ul li img
+{
+	padding: 1px;
+	right: 2;
+	position: absolute;
+
+}
+
+#content
+{
+	display: inline-block;
+	height: calc(100% - 42px);
+	top: 42px;
+	left: 125px;
+	padding-top: -100px;
+	position: absolute;
+	width: calc(100% - 125px);
+}
+
+#title
+{
+	font-size: 22px;
+	padding: 10px;
+	top: 0;
+	position: absolute;
+	font-weight: 100;
+}
+
+#divContent
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+
+#actions
+{
+	top: 10%;
+	left: 10;
+	width: calc(100% - 23px);
+	height: 35px;
+	text-align: right;
+	padding-top: 10px;
+}
+
+#info
+{
+	top: 20%;
+	left: 10;
+	width: 63.2%;
+	height: 75%;
+}
+
+article
+{
+	position: absolute;
+}
+
+.shadow
+{
+	border: 1px solid #c4c6ce;
+	box-shadow: 2px 2px 5px #999;
+}
+
+#servicios
+{
+	top: 20%;
+	right: 10;
+	width: 33.2%;
+	height: 24%;
+
+}
+
+#contactos
+{
+	top: 45.4%;
+	right: 10;
+	width: 33.2%;
+	height: 24%;
+}
+
+#direcciones
+{
+	top: 71%;
+	right: 10;
+	width: 33.2%;
+	height: 24%;
+}
+
+.busca
+{
+
+	margin: 15px;
+}
+
+.tBusca
+{
+
+	width: 400px;
+	background: transparent;
+}
+
+.button
+{
+	background: transparent;
+	border: 1px solid #82c6e2;
+	box-shadow: 1px 1px 3px #82c6e2;
+}
+
+.button:hover
+{
+	background: #51b5e0;
+	color: white;
+}
+
+.subContent
+{
+	padding: 15px; 
+	font-size: 14px;
+}

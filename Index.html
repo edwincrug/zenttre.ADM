@@ -1,56 +1,84 @@
 <DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="utf-8" /> 
-	<meta name='description' content='Información de clientes' />
-	<link rel='stylesheet' href='normalize.css' />
-	<link rel='stylesheet' href='body.css' />
-	<title>
-		zenttre -  Clientes
-	</title>
-</head>
-<body>
-	<header>
-		<div id="logo">
-			<img src="logo.png" />
-		</div>
-		<nav>
+	<html lang="es">
+	<head>
+		<meta charset="utf-8" /> 
+		<meta name='description' content='Información de clientes' />
+		<link rel='stylesheet' href='style/normalize.css' />
+		<link rel='stylesheet' href='style/body.css' />
+		<title>
+			zenttre -  Clientes
+		</title>
+	</head>
+	<body>
+		<header>
+
+			<img src="images/logo.png" id="logo" />
+
+			<nav>
+				<ul>
+					<li><a href="#"><img src="#"></a></li>
+					<li><a href="#"><img src="#"></a></li>
+					<li><a href="#"><img src="#"></a></li>
+					<li><a href="#"><img src="#"></a></li>
+					<li><a href="#"><img src="#"></a></li>
+					<li><a href="#"><img src="#"></a></li>
+				</ul>
+			</nav>
+			<div id="name">Cesar Rodríguez</div>
+			<figure id="avatar">
+				<img src="images/profile/man.jpg">
+			</figure>
+		</header>
+		<section id="left">
+		<nav id="menu">
 			<ul>
-				<li><a href="#"><img src="#">Mensaje</a></li>
-				<li><a href="#"><img src="#">Chat</a></li>
-				<li><a href="#"><img src="#">Nota</a></li>
-				<li><a href="#"><img src="#">Calendario</a></li>
-				<li><a href="#"><img src="#">Cliente</a></li>
-				<li><a href="#"><img src="#">Salas</a></li>
+				<li><img src="#">Inicio</li>
+				<li><img src="#">Clientes</li>
+				<li><img src="#">Inventarios</li>
+				<li><img src="#">Proveedores</li>
+				<li><img src="#">Cobranza</li>
+				<li><img src="#">Empleados</li>
+				<li><img src="#">Reportes</li>
 			</ul>
 		</nav>
-		<figure id="avatar">
-			<img src="avatar.png">
-		 </figure>
-	</header>
-	
-	<nav>
-	</nav>
-	<section id="Content">
-		<h1 id="Title">Clientes</h1>
-		<article id="Actions">
-
-		</article>
-		<article id="Info">
-			<div class="busca">
-
+		</section>
+		<section id="content">
+			<div id="divContent">
+				<h1 id="Title">Sección Clientes</h1>
+				<article id="actions">
+					<input type="button" value="Buzón" class="button" />
+				<input type="button" value="Reservaciones"  class="button" />
+				<input type="button" value="Envíos" class="button"  />
+				<input type="button" value="Correspondencia"  class="button" />
+				<input type="button" value="Consumos" class="button"  />
+				</article>
+				<article id="info" class="shadow">
+					<div class="busca">
+						<input type="search" results="5" class="tBusca" placeholder="Buscar un cliente" />
+					
+					</div>
+					<div class="subContent">
+						Información General
+					</div>
+					
+				</article>
+				<article id="servicios" class="shadow">
+					<div class="subContent">
+					Servicios
+					</div>
+				</article>
+				<article id="contactos" class="shadow">
+					<div class="subContent">
+					Contactos
+					</div>
+				</article>
+				<article id="direcciones" class="shadow">
+					<div class="subContent">
+					Direcciones
+					</div>
+				</article>
 			</div>
-		</article>
-		<article class="Servicios">
+		</section>
+	</body>
 
-		</article>
-		<article class="Contactos">
-
-		</article>
-		<article class="Direcciones">
-
-		</article>
-	</section>
-</body>
-
-</html>
+	</html>
